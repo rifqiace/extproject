@@ -1,4 +1,4 @@
-$(function () {
+$(function () { 
 
     // init feather icons
     feather.replace();
@@ -58,16 +58,5 @@ $(function () {
         $('html, body').stop().animate({
             scrollTop: 0
         }, 1000);
-    });
-
-    /**Theme switcher - DEMO PURPOSE ONLY */
-    $('.switcher-trigger').click(function () {
-        $('.switcher-wrap').toggleClass('active');
-    });
-    $('.color-switcher ul li').click(function () {
-        var color = $(this).attr('data-color');
-        $('#theme-color').attr("href", "css/" + color + ".css");
-        $('.color-switcher ul li').removeClass('active');
-        $(this).addClass('active');
     });
 });
