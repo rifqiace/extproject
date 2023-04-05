@@ -7,8 +7,7 @@ PROJECTION
     "init=epsg:28992"
 END #default projection
 
-# EXTENT 256603 470654 257975 471938 # lon/lat extents of Enschede
-# EXTENT 6.7 51.0 6.9 52.0
+# EXTENT 256603 470654 257975 471938 # extents of Enschede
 
 WEB
     METADATA
@@ -32,7 +31,7 @@ LAYER
     NAME dtm
     TYPE RASTER
     STATUS ON
-    DATA "data/DEM_Final.tif"
+    DATA "data/DTM_Final_classified2.tif"
     PROCESSING "SCALE=AUTO"
 
     METADATA

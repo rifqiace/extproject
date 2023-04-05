@@ -30,15 +30,36 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
     />
 
+    <!-- Style for JQuery
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"
+    /> -->
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css" /> -->
+
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/default.css" id="theme-color" />
   </head>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/ol.js"></script>
+
   <body>
     <!--Navigation-->
     <section class="smart-scroll">
-      <div class="container-fluid">
+      <div class="container-fluids">
         <nav class="navbar navbar-expand-md navbar-dark">
-          <a class="navbar-brand heading-black" href="index.html"> PWS. </a>
+          <a class="navbar-brand heading-black" href="index.html">
+            PHOTOGRAMMETRY.
+          </a>
           <button
             class="navbar-toggler navbar-toggler-right border-0"
             type="button"
@@ -60,7 +81,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#faq"
-                  >Uncertainty & Accuracies</a
+                  >Uncertainty & Accuracy</a
                 >
               </li>
               <li class="nav-item">
@@ -76,7 +97,11 @@
     </section>
 
     <!--hero header-->
-    <section class="py-7 py-md-0 bg-hero" id="home">
+    <section
+      class="py-7 py-md-0 bg-hero"
+      id="home"
+      style="background-image: url('img/drone_image11.jpg')"
+    >
       <div class="container">
         <div class="row vh-md-100">
           <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
@@ -102,7 +127,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center">
-            <h2 class="heading-black">Let's start with<br />the CONCEPT.</h2>
+            <h2 class="heading-black">Let's start with<br />the <a href="./concept.html">CONCEPT.</a></h2>
             <p class="text-muted lead">
               Here are how we implemented the photogrammetry and web mapping
               techniques on this website
@@ -422,11 +447,15 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5 mr-auto">
-            <h5>About Knight</h5>
+            <h5>About this project</h5>
             <p class="text-muted">
-              Magnis modipsae que voloratati andigen daepeditem quiate conecus
-              aut labore. Laceaque quiae sitiorem rest non restibusaes maio es
-              dem tumquam explabo.
+              Our passion for photogrammetry and our commitment to providing
+              top-notch website solutions have been the driving force behind our
+              success. Our team spent countless hours researching and
+              experimenting with different GIS tools and techniques, learning
+              how to visualize data in new and interesting ways. We were amazed
+              by the insights we could glean from even the most mundane
+              datasets, and we knew we had to share our findings with the world.
             </p>
             <ul class="list-inline social social-sm">
               <li class="list-inline-item">
@@ -459,7 +488,7 @@
             </ul>
           </div>
           <div class="col-sm-2">
-            <h5>Help</h5>
+            <h5>Affiliation</h5>
             <ul class="list-unstyled">
               <li><a href="#">Support</a></li>
               <li><a href="#">Log in</a></li>
@@ -468,7 +497,7 @@
         </div>
         <div class="row mt-5">
           <div class="col-12 text-muted text-center small-xl">
-            &copy; 2019 Knight - All Rights Reserved
+            &copy; MGEO Geoinformatics - All Rights Reserved.
           </div>
         </div>
       </div>
@@ -478,14 +507,5 @@
     <div class="scroll-top">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </div>
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/ol.js"></script>
   </body>
 </html>
